@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.akshit.sih.ShowActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Select Year"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp" />
+
+        <Spinner
+            android:id="@+id/yearSpinner"
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Show"
+            android:background="@color/colorGblue"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"
+
+            android:id="@+id/btnYear"
+            />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:indeterminate="true" />
+
+    <ListView
+        android:id="@+id/mVaccinesList"
+        android:divider="@color/colorShadow"
+        android:layout_marginTop="30dp"
+        android:dividerHeight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

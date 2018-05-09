@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.akshit.sih.MainActivity">
+
+    <!--<android.support.v4.widget.CircleImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:src="@drawable/ic_info_outline_black_24dp"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--tools:ignore="MissingConstraints" />-->
+
+
+    <Button
+        android:id="@+id/admin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorGblue"
+        android:text="@string/admin"
+        android:textColor="@android:color/white"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/owner"
+        app:layout_constraintEnd_toEndOf="@+id/owner"
+        app:layout_constraintStart_toStartOf="@+id/owner"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/owner"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorGblue"
+        android:text="@string/user"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/choose_account"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/admin"
+        app:layout_constraintEnd_toEndOf="@+id/admin"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/admin"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.831"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="416dp"
+        android:layout_height="216dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_icon" />
+
+</android.support.constraint.ConstraintLayout>

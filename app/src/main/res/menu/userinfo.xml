@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/marker"
+        android:icon="@mipmap/ic_perm_identity_black_24dp"
+        android:title="My Account"/>
+    <item android:id="@+id/vaccination"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:title="Vaccination"/>
+
+    </menu>

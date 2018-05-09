@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SIH</string>
+    <string name="title_activity_admin__maps">Map</string>
+    <string name="title_activity_owner__maps">Map</string>
+    <string name="title_activity_admin__maps1">Map</string>
+    <string name="title_activity_owner__maps1">Map</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="open"> Open</string>
+    <string name="close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="vaccinationType">
+        <item>Hemorrhagic Septicemia</item>
+        <item>Black Quarter (BQ)</item>
+        <item>Anthrax</item>
+        <item>Brucella</item>
+        <item>Theileriosis</item>
+        <item>Rabies</item>
+    </string-array>
+    <string name="title_activity_marker__maps">Map</string>
+    <string name="choose_disease">Choose Vaccinaction</string>
+    <string name="sign_in_image">Sign In Image</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="show">Show</string>
+    <string name="save">Save</string>
+    <string name="select_date">Select Date</string>
+    <string name="mm_dd_yyyy">MM-DD-YYYY</string>
+    <string name="report_ndisease">Report Disease</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="user_image">User Image</string>
+    <string name="username">Username</string>
+    <string name="name_nbbfs">name\nbbfs</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="choose_account">Choose Account</string>
+    <string name="remove_user">Remove User</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="_263_cattles">Cattles : 263</string>
+    <string name="age_38">Age : 38</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone">1234567890</string>
+    <string name="name_n_bbfs">name\nbbfs</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_image">Sign Up Image</string>
+    <string name="example_email">Email : johndoe@example.com</string>
+    <string name="track_the_mithuns">Track The Mithuns</string>
+    <string name="enter_owner_s_details">Enter Owner\'s details</string>
+</resources>
